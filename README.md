@@ -55,6 +55,13 @@ files = ["combined.csv", "MEN_dataset_natural_form_full.txt", "ratings.txt", "Si
 for file in files:
     os.system(f"wget -q -O Datasets/W2VvsBERT/{file} {raw_base_url}{file}")
 ```
+Google Drive
+```python
+!pip install -q gdown
+
+folder_id = "Datasets_W2VvsBERT"
+!gdown --folder https://drive.google.com/drive/folders/1oUVDeHucEAohgSP9oPgMn0WwF0K91WI9?usp=sharing{Datasets_W2VvsBERT}
+```
 
 ### 3. Load Models
 ```python
