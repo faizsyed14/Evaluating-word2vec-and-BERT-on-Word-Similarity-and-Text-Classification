@@ -19,7 +19,6 @@ The project also includes a **quantified polysemy experiment**, **layer-wise BER
 ```text
 .
 ├── W2VvsBERT.ipynb          # Main notebook containing the full experimental pipeline
-├── set1.csv / set2.csv      # WordSim-353 raw annotator splits (source material)
 ├── README.md                # Project documentation
 └── Datasets/                # Auto-downloaded at runtime (not committed as blobs)
     ├── combined.csv         # WordSim-353 (353 pairs)
