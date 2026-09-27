@@ -111,7 +111,7 @@ Generated outputs are automatically saved locally or synced to Google Drive:
   * **word2vec Accuracy:** $0.796 \pm 0.027$
   * **BERT Accuracy:** $0.817 \pm 0.033$
   * **Statistical Significance:** Paired t-test on $F_1$ scores resulted in $t = 1.57, p = 0.191$ (not statistically significant across random seeds).
-* **Computational Efficiency:** Extracting embeddings via BERT took approximately **$557\times$ longer** than static word2vec lookups.
+* **Computational Efficiency:** Extracting embeddings via BERT took approximately **$560–710\times$ longer** than static word2vec lookups.
 
 > **Takeaway:** Contextual BERT embeddings did not outperform static word2vec vectors on isolated word-pair similarity in this setup, and its performance edge on small-scale SST-2 classification was not statistically robust across random seeds—despite requiring over $500\times$ the compute cost.
 
